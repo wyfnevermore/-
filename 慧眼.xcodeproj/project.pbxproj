@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5C71A51E7AB444008D3375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5C71A41E7AB444008D3375 /* main.m */; };
+		EF5C71A81E7AB444008D3375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5C71A71E7AB444008D3375 /* AppDelegate.m */; };
+		EF5C71AB1E7AB444008D3375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5C71AA1E7AB444008D3375 /* ViewController.m */; };
+		EF5C71AE1E7AB444008D3375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5C71AC1E7AB444008D3375 /* Main.storyboard */; };
+		EF5C71B11E7AB444008D3375 /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF5C71AF1E7AB444008D3375 /* __.xcdatamodeld */; };
+		EF5C71B31E7AB444008D3375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5C71B21E7AB444008D3375 /* Assets.xcassets */; };
+		EF5C71B61E7AB444008D3375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5C71B41E7AB444008D3375 /* LaunchScreen.storyboard */; };
+		EF5C71C11E7AB445008D3375 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5C71C01E7AB445008D3375 /* __Tests.m */; };
+		EF5C71CC1E7AB445008D3375 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5C71CB1E7AB445008D3375 /* __UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5C71BD1E7AB445008D3375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5C71981E7AB444008D3375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5C719F1E7AB444008D3375;
+			remoteInfo = "慧眼";
+		};
+		EF5C71C81E7AB445008D3375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5C71981E7AB444008D3375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5C719F1E7AB444008D3375;
+			remoteInfo = "慧眼";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5C71A01E7AB444008D3375 /* 慧眼.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "慧眼.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C71A41E7AB444008D3375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5C71A61E7AB444008D3375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5C71A71E7AB444008D3375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5C71A91E7AB444008D3375 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5C71AA1E7AB444008D3375 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5C71AD1E7AB444008D3375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5C71B01E7AB444008D3375 /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
+		EF5C71B21E7AB444008D3375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5C71B51E7AB444008D3375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5C71B71E7AB444008D3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5C71BC1E7AB445008D3375 /* 慧眼Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "慧眼Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C71C01E7AB445008D3375 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		EF5C71C21E7AB445008D3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5C71C71E7AB445008D3375 /* 慧眼UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "慧眼UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5C71CB1E7AB445008D3375 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		EF5C71CD1E7AB445008D3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5C719D1E7AB444008D3375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C71B91E7AB445008D3375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C71C41E7AB445008D3375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5C71971E7AB444008D3375 = {
+			isa = PBXGroup;
+			children = (
+				EF5C71A21E7AB444008D3375 /* 慧眼 */,
+				EF5C71BF1E7AB445008D3375 /* 慧眼Tests */,
+				EF5C71CA1E7AB445008D3375 /* 慧眼UITests */,
+				EF5C71A11E7AB444008D3375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5C71A11E7AB444008D3375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C71A01E7AB444008D3375 /* 慧眼.app */,
+				EF5C71BC1E7AB445008D3375 /* 慧眼Tests.xctest */,
+				EF5C71C71E7AB445008D3375 /* 慧眼UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5C71A21E7AB444008D3375 /* 慧眼 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C71A61E7AB444008D3375 /* AppDelegate.h */,
+				EF5C71A71E7AB444008D3375 /* AppDelegate.m */,
+				EF5C71A91E7AB444008D3375 /* ViewController.h */,
+				EF5C71AA1E7AB444008D3375 /* ViewController.m */,
+				EF5C71AC1E7AB444008D3375 /* Main.storyboard */,
+				EF5C71B21E7AB444008D3375 /* Assets.xcassets */,
+				EF5C71B41E7AB444008D3375 /* LaunchScreen.storyboard */,
+				EF5C71B71E7AB444008D3375 /* Info.plist */,
+				EF5C71AF1E7AB444008D3375 /* __.xcdatamodeld */,
+				EF5C71A31E7AB444008D3375 /* Supporting Files */,
+			);
+			path = "慧眼";
+			sourceTree = "<group>";
+		};
+		EF5C71A31E7AB444008D3375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C71A41E7AB444008D3375 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5C71BF1E7AB445008D3375 /* 慧眼Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C71C01E7AB445008D3375 /* __Tests.m */,
+				EF5C71C21E7AB445008D3375 /* Info.plist */,
+			);
+			path = "慧眼Tests";
+			sourceTree = "<group>";
+		};
+		EF5C71CA1E7AB445008D3375 /* 慧眼UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C71CB1E7AB445008D3375 /* __UITests.m */,
+				EF5C71CD1E7AB445008D3375 /* Info.plist */,
+			);
+			path = "慧眼UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5C719F1E7AB444008D3375 /* 慧眼 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C71D01E7AB445008D3375 /* Build configuration list for PBXNativeTarget "慧眼" */;
+			buildPhases = (
+				EF5C719C1E7AB444008D3375 /* Sources */,
+				EF5C719D1E7AB444008D3375 /* Frameworks */,
+				EF5C719E1E7AB444008D3375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "慧眼";
+			productName = "慧眼";
+			productReference = EF5C71A01E7AB444008D3375 /* 慧眼.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5C71BB1E7AB445008D3375 /* 慧眼Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C71D31E7AB445008D3375 /* Build configuration list for PBXNativeTarget "慧眼Tests" */;
+			buildPhases = (
+				EF5C71B81E7AB445008D3375 /* Sources */,
+				EF5C71B91E7AB445008D3375 /* Frameworks */,
+				EF5C71BA1E7AB445008D3375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5C71BE1E7AB445008D3375 /* PBXTargetDependency */,
+			);
+			name = "慧眼Tests";
+			productName = "慧眼Tests";
+			productReference = EF5C71BC1E7AB445008D3375 /* 慧眼Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5C71C61E7AB445008D3375 /* 慧眼UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5C71D61E7AB445008D3375 /* Build configuration list for PBXNativeTarget "慧眼UITests" */;
+			buildPhases = (
+				EF5C71C31E7AB445008D3375 /* Sources */,
+				EF5C71C41E7AB445008D3375 /* Frameworks */,
+				EF5C71C51E7AB445008D3375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5C71C91E7AB445008D3375 /* PBXTargetDependency */,
+			);
+			name = "慧眼UITests";
+			productName = "慧眼UITests";
+			productReference = EF5C71C71E7AB445008D3375 /* 慧眼UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5C71981E7AB444008D3375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wyfnevermore;
+				TargetAttributes = {
+					EF5C719F1E7AB444008D3375 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+					};
+					EF5C71BB1E7AB445008D3375 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5C719F1E7AB444008D3375;
+					};
+					EF5C71C61E7AB445008D3375 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5C719F1E7AB444008D3375;
+					};
+				};
+			};
+			buildConfigurationList = EF5C719B1E7AB444008D3375 /* Build configuration list for PBXProject "慧眼" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5C71971E7AB444008D3375;
+			productRefGroup = EF5C71A11E7AB444008D3375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5C719F1E7AB444008D3375 /* 慧眼 */,
+				EF5C71BB1E7AB445008D3375 /* 慧眼Tests */,
+				EF5C71C61E7AB445008D3375 /* 慧眼UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5C719E1E7AB444008D3375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C71B61E7AB444008D3375 /* LaunchScreen.storyboard in Resources */,
+				EF5C71B31E7AB444008D3375 /* Assets.xcassets in Resources */,
+				EF5C71AE1E7AB444008D3375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C71BA1E7AB445008D3375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C71C51E7AB445008D3375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5C719C1E7AB444008D3375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C71AB1E7AB444008D3375 /* ViewController.m in Sources */,
+				EF5C71B11E7AB444008D3375 /* __.xcdatamodeld in Sources */,
+				EF5C71A81E7AB444008D3375 /* AppDelegate.m in Sources */,
+				EF5C71A51E7AB444008D3375 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C71B81E7AB445008D3375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C71C11E7AB445008D3375 /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5C71C31E7AB445008D3375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5C71CC1E7AB445008D3375 /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5C71BE1E7AB445008D3375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5C719F1E7AB444008D3375 /* 慧眼 */;
+			targetProxy = EF5C71BD1E7AB445008D3375 /* PBXContainerItemProxy */;
+		};
+		EF5C71C91E7AB445008D3375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5C719F1E7AB444008D3375 /* 慧眼 */;
+			targetProxy = EF5C71C81E7AB445008D3375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5C71AC1E7AB444008D3375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5C71AD1E7AB444008D3375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5C71B41E7AB444008D3375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5C71B51E7AB444008D3375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5C71CE1E7AB445008D3375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5C71CF1E7AB445008D3375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5C71D11E7AB445008D3375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "慧眼/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5C71D21E7AB445008D3375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "慧眼/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5C71D41E7AB445008D3375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "慧眼Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/慧眼.app/慧眼";
+			};
+			name = Debug;
+		};
+		EF5C71D51E7AB445008D3375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "慧眼Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/慧眼.app/慧眼";
+			};
+			name = Release;
+		};
+		EF5C71D71E7AB445008D3375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "慧眼UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "慧眼";
+			};
+			name = Debug;
+		};
+		EF5C71D81E7AB445008D3375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = "慧眼UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ias.wyf.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "慧眼";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5C719B1E7AB444008D3375 /* Build configuration list for PBXProject "慧眼" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C71CE1E7AB445008D3375 /* Debug */,
+				EF5C71CF1E7AB445008D3375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5C71D01E7AB445008D3375 /* Build configuration list for PBXNativeTarget "慧眼" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C71D11E7AB445008D3375 /* Debug */,
+				EF5C71D21E7AB445008D3375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5C71D31E7AB445008D3375 /* Build configuration list for PBXNativeTarget "慧眼Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C71D41E7AB445008D3375 /* Debug */,
+				EF5C71D51E7AB445008D3375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5C71D61E7AB445008D3375 /* Build configuration list for PBXNativeTarget "慧眼UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5C71D71E7AB445008D3375 /* Debug */,
+				EF5C71D81E7AB445008D3375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF5C71AF1E7AB444008D3375 /* __.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF5C71B01E7AB444008D3375 /* __.xcdatamodel */,
+			);
+			currentVersion = EF5C71B01E7AB444008D3375 /* __.xcdatamodel */;
+			path = __.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF5C71981E7AB444008D3375 /* Project object */;
+}
